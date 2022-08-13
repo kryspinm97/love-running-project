@@ -25,7 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left:30px;
+    margin-left: 30px;
 
 }
 
@@ -35,7 +35,8 @@ h2 {
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -61,14 +62,15 @@ h2 {
 /* Hero Image */
 
 #hero-outer {
-    height:600px;
-    width:100%;
-    overflow:hidden;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 
-    position:relative;
+    position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -84,27 +86,28 @@ h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color:rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
     right: 150px;
 
-    position:absolute;
+    position: absolute;
 
 }
 
 
 #hero-image {
-    height:600px;
-    width:100%;
+    height: 600px;
+    width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /* Animates zoom effect on loading page */
-    
+
 
 /* Creates the level of zoom for hero image */
 
@@ -112,6 +115,7 @@ h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -127,19 +131,69 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
-
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p { 
+    text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
